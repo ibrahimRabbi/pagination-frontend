@@ -3,6 +3,8 @@ import './App.css'
 import TableCom from './table/TableCom'
 import UserCard from './card/UserCard'
 import ShapeCard from './card/ShapeCard'
+import VIPPricingCard from './card/Subcription'
+import GetInTuch from './getInTuch/GetInTuch'
 
 
 
@@ -25,6 +27,14 @@ function App() {
     {
       path: '/shape-card',
       element: <ShapeCard/>
+    },
+    {
+      path: '/subcription',
+      element: <VIPPricingCard/>
+    },
+    {
+      path: '/getIn-tuch',
+      element: <GetInTuch/>
     }
   ])
 
