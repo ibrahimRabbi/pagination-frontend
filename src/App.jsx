@@ -5,6 +5,8 @@ import UserCard from './card/UserCard'
 import ShapeCard from './card/ShapeCard'
 import VIPPricingCard from './card/Subcription'
 import GetInTuch from './getInTuch/GetInTuch'
+import ProductCard from './card/ProductCard'
+import Details from './Details/Details'
 
 
 
@@ -35,6 +37,14 @@ function App() {
     {
       path: '/getIn-tuch',
       element: <GetInTuch/>
+    },
+    {
+      path: '/products',
+      element: <ProductCard/>
+    },
+    {
+      path: '/details',
+      element: <Details/>
     }
   ])
 
